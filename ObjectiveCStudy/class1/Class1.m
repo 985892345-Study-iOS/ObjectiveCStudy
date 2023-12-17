@@ -10,8 +10,13 @@
 
 @implementation Class1
 
+// 类方法用 + 号申明
+/**
+ @brief 这个是概述 Summary
+ */
 + (void)run {
     
+    // 字符串以 @ 开头
     NSLog(@"Hello, World!");
     
     // https://www.runoob.com/w3cnote/objective-c-tutorial.html
@@ -19,6 +24,8 @@
     NSObject *obj1 = [[NSObject alloc] init];
     // 在Objective-C 2.0里，若创建对象不需要参数，则可直接使用new
     NSObject *obj2 = [NSObject new];
+    
+    // %@ 打印对象
     NSLog(@"obj1 = %@", obj1);
     NSLog(@"obj2 = %@", obj2);
     
@@ -32,7 +39,7 @@
     
     // 对于 set 和 get 方法，OC 中提供了 . 语法，其实质还是转换成 []
     stu.age = 20;
-    NSLog(@"%d", stu.age);
+    NSLog(@"%d", stu.age); // %d 打印数字
     
     // @property 验证，已自动生成 set 和 get 方法
     stu.money = 100;

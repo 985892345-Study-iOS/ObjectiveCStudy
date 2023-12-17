@@ -9,12 +9,13 @@
 
 @implementation Student
 
+// 对象方法用 - 号表示
 - (void)sayHi {
     NSLog(@"I'm  %@", _name);
 }
 
 - (instancetype)initWithStuNum:(int)stuNum Age:(int)age Name:(NSString *)name {
-    if (self = [super init]) { // 注意这里只有一个等号，是赋值值操作
+    if (self = [super init]) { // 注意这里只有一个等号，是赋值操作
         _stuNum = stuNum;
         _age = age;
         _name = name;

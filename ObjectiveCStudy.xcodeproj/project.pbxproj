@@ -12,6 +12,11 @@
 		771297F12A828BAE00C8C740 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 771297EC2A828BAE00C8C740 /* Student.m */; };
 		771297F22A828BAE00C8C740 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 771297ED2A828BAE00C8C740 /* Book.m */; };
 		771297F62A828BB500C8C740 /* Class2.m in Sources */ = {isa = PBXBuildFile; fileRef = 771297F42A828BB500C8C740 /* Class2.m */; };
+		77DE03F12B2F157700200BEF /* Chapter1.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DE03F02B2F157700200BEF /* Chapter1.m */; };
+		77DE03F62B2F160800200BEF /* Chapter2.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DE03F42B2F160800200BEF /* Chapter2.m */; };
+		77DE03FA2B2F162100200BEF /* Chapter6.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DE03F92B2F162100200BEF /* Chapter6.m */; };
+		77DE04012B2F163200200BEF /* CategoryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DE03FE2B2F163200200BEF /* CategoryTest.m */; };
+		77DE04022B2F163200200BEF /* Chapter8.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DE04002B2F163200200BEF /* Chapter8.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +42,16 @@
 		771297EF2A828BAE00C8C740 /* Class1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Class1.h; sourceTree = "<group>"; };
 		771297F42A828BB500C8C740 /* Class2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Class2.m; sourceTree = "<group>"; };
 		771297F52A828BB500C8C740 /* Class2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Class2.h; sourceTree = "<group>"; };
+		77DE03F02B2F157700200BEF /* Chapter1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chapter1.m; sourceTree = "<group>"; };
+		77DE03F42B2F160800200BEF /* Chapter2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter2.m; sourceTree = "<group>"; };
+		77DE03F52B2F160800200BEF /* Chapter2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter2.h; sourceTree = "<group>"; };
+		77DE03F82B2F162100200BEF /* Chapter6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter6.h; sourceTree = "<group>"; };
+		77DE03F92B2F162100200BEF /* Chapter6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter6.m; sourceTree = "<group>"; };
+		77DE03FC2B2F163200200BEF /* Chapter8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter8.h; sourceTree = "<group>"; };
+		77DE03FD2B2F163200200BEF /* Protocol1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Protocol1.h; sourceTree = "<group>"; };
+		77DE03FE2B2F163200200BEF /* CategoryTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryTest.m; sourceTree = "<group>"; };
+		77DE03FF2B2F163200200BEF /* CategoryTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryTest.h; sourceTree = "<group>"; };
+		77DE04002B2F163200200BEF /* Chapter8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter8.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +84,7 @@
 		771297BC2A82885C00C8C740 /* ObjectiveCStudy */ = {
 			isa = PBXGroup;
 			children = (
+				77DE03EE2B2F151800200BEF /* book */,
 				771297F32A828BB500C8C740 /* class2 */,
 				771297E92A828BAE00C8C740 /* class1 */,
 				771297BD2A82885C00C8C740 /* main.m */,
@@ -79,11 +95,9 @@
 		771297E92A828BAE00C8C740 /* class1 */ = {
 			isa = PBXGroup;
 			children = (
-				771297EA2A828BAE00C8C740 /* Book.h */,
+				77DE03E52B2ED8D300200BEF /* book */,
+				77DE03E42B2ED8C800200BEF /* student */,
 				771297EB2A828BAE00C8C740 /* Class1.m */,
-				771297EC2A828BAE00C8C740 /* Student.m */,
-				771297ED2A828BAE00C8C740 /* Book.m */,
-				771297EE2A828BAE00C8C740 /* Student.h */,
 				771297EF2A828BAE00C8C740 /* Class1.h */,
 			);
 			path = class1;
@@ -96,6 +110,73 @@
 				771297F52A828BB500C8C740 /* Class2.h */,
 			);
 			path = class2;
+			sourceTree = "<group>";
+		};
+		77DE03E42B2ED8C800200BEF /* student */ = {
+			isa = PBXGroup;
+			children = (
+				771297EE2A828BAE00C8C740 /* Student.h */,
+				771297EC2A828BAE00C8C740 /* Student.m */,
+			);
+			path = student;
+			sourceTree = "<group>";
+		};
+		77DE03E52B2ED8D300200BEF /* book */ = {
+			isa = PBXGroup;
+			children = (
+				771297ED2A828BAE00C8C740 /* Book.m */,
+				771297EA2A828BAE00C8C740 /* Book.h */,
+			);
+			path = book;
+			sourceTree = "<group>";
+		};
+		77DE03EE2B2F151800200BEF /* book */ = {
+			isa = PBXGroup;
+			children = (
+				77DE03FB2B2F163200200BEF /* chapter8 */,
+				77DE03F72B2F162100200BEF /* chapter6 */,
+				77DE03F22B2F15E100200BEF /* chapter2 */,
+				77DE03EF2B2F153700200BEF /* chapter1 */,
+			);
+			path = book;
+			sourceTree = "<group>";
+		};
+		77DE03EF2B2F153700200BEF /* chapter1 */ = {
+			isa = PBXGroup;
+			children = (
+				77DE03F02B2F157700200BEF /* Chapter1.m */,
+			);
+			path = chapter1;
+			sourceTree = "<group>";
+		};
+		77DE03F22B2F15E100200BEF /* chapter2 */ = {
+			isa = PBXGroup;
+			children = (
+				77DE03F52B2F160800200BEF /* Chapter2.h */,
+				77DE03F42B2F160800200BEF /* Chapter2.m */,
+			);
+			path = chapter2;
+			sourceTree = "<group>";
+		};
+		77DE03F72B2F162100200BEF /* chapter6 */ = {
+			isa = PBXGroup;
+			children = (
+				77DE03F82B2F162100200BEF /* Chapter6.h */,
+				77DE03F92B2F162100200BEF /* Chapter6.m */,
+			);
+			path = chapter6;
+			sourceTree = "<group>";
+		};
+		77DE03FB2B2F163200200BEF /* chapter8 */ = {
+			isa = PBXGroup;
+			children = (
+				77DE03FC2B2F163200200BEF /* Chapter8.h */,
+				77DE03FD2B2F163200200BEF /* Protocol1.h */,
+				77DE03FE2B2F163200200BEF /* CategoryTest.m */,
+				77DE03FF2B2F163200200BEF /* CategoryTest.h */,
+				77DE04002B2F163200200BEF /* Chapter8.m */,
+			);
+			path = chapter8;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,9 +238,14 @@
 			files = (
 				771297F22A828BAE00C8C740 /* Book.m in Sources */,
 				771297F62A828BB500C8C740 /* Class2.m in Sources */,
+				77DE04012B2F163200200BEF /* CategoryTest.m in Sources */,
+				77DE03FA2B2F162100200BEF /* Chapter6.m in Sources */,
 				771297F02A828BAE00C8C740 /* Class1.m in Sources */,
+				77DE03F12B2F157700200BEF /* Chapter1.m in Sources */,
 				771297BE2A82885C00C8C740 /* main.m in Sources */,
 				771297F12A828BAE00C8C740 /* Student.m in Sources */,
+				77DE04022B2F163200200BEF /* Chapter8.m in Sources */,
+				77DE03F62B2F160800200BEF /* Chapter2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

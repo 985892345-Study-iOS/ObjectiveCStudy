@@ -9,7 +9,9 @@
 #import "Book.h"
 
 @interface Student : NSObject {
-    int _stuNum; // 官方推荐成员变量以 _ 开头
+    // 官方推荐成员变量以 _ 开头
+    // 未写修饰符时默认 @protected
+    int _stuNum;
     int _age;
     NSString *_name;
     @public
